@@ -142,7 +142,8 @@ In this graph, we can clearly tell the trend of new cases and when the policies 
 ## Conclusion
 1. Normally, it takes one month to respond.
 2. Last peak was caused by Omeicron.
-3. We can speculate that new policy changes will happen in June.
+3. No policy changes made this year with regrad to School Closing.
+4. We can speculate that new policy changes will happen in June.
 
 ----
 ## 4Vs
