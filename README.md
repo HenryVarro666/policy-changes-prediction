@@ -130,7 +130,9 @@ dfC_proc.plot(x='submission_date',y=polColumns+['new_case_MA20'])
 # <AxesSubplot:xlabel='submission_date'>
 ```
 
-![Fusion](https://raw.githubusercontent.com/HenryVarro666/images/master/images/20220519004503.png)
+
+![2020 added](https://raw.githubusercontent.com/HenryVarro666/images/master/images/20220519013243.png)
+
 
 In this graph, we can clearly tell the trend of new cases and when the policies changed.
 
@@ -141,3 +143,22 @@ In this graph, we can clearly tell the trend of new cases and when the policies 
 1. Normally, it takes one month to respond.
 2. Last peak was caused by Omeicron.
 3. We can speculate that new policy changes will happen in June.
+
+----
+## 4Vs
+### Volume
+Total datasets are up to 500 MB.
+The experiment dataset contains 400000 rows and 87 columns.
+
+### Variety
+Policy and Case.
+But it includes so many different datasets.
+
+### Velocity
+Though it was reported that "Java heap space", it runs fast and is almost real-time.
+
+### Veracity
+Those two sources are reliable.
+(CDC and [OxCGRT](https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker))
+
+
