@@ -82,7 +82,7 @@ It provides csv file.
 
 #### Backup datasets
 
--  [CSSEGISandData/COVID-19](CSSEGISandData/COVID-19)
+-  [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
 
       (Messy)
 
@@ -92,7 +92,7 @@ It provides csv file.
 
   CORD-19 is a resource of over 1,000,000 scholarly articles, including over 350,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. 
 
-- [nytimes/covid-19-data](nytimes/covid-19-data)
+- [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
 
   <u>Only foucs on USA</u>
 
@@ -104,7 +104,7 @@ It provides csv file.
 
   COVID-19 Italia - Monitoraggio situazione (not English?)
 
-- [owid/covid-19-data](owid/covid-19-data)
+- [owid/covid-19-data](https://github.com/owid/covid-19-data)
 
   Looks good~ But not so reliable.
 
@@ -160,5 +160,4 @@ Though it was reported that "Java heap space", it runs fast and is almost real-t
 ### Veracity
 Those two sources are reliable.
 (CDC and [OxCGRT](https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker))
-
 
