@@ -148,7 +148,6 @@ In this graph, we can clearly tell the trend of new cases and when the policies 
 ## 4Vs
 ### Volume
 Total datasets are up to 500 MB.
-The experiment dataset contains 400000 rows and 87 columns.
 
 ### Variety
 Policy and Case.
