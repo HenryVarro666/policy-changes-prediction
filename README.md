@@ -31,6 +31,7 @@ The number reveals the levels of strictness
 |1.0|Low|
 |2.0|Medium|
 |3.0|High|
+|4.0|Vert strict|
 |NaN|No data|
 
 
