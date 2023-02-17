@@ -1,0 +1,175 @@
+,date_implement,policy,metric_change,state
+0,2022-02-02,C1_School closing,-1.0,Alaska
+1,2022-04-04,C1_School closing,1.0,Alaska
+2,2022-02-02,C2_Workplace closing,-1.0,Alaska
+3,2022-02-02,C3_Cancel public events,-1.0,Alaska
+4,2022-03-08,C4_Restrictions on gatherings,-3.0,Alaska
+5,2022-02-02,C5_Close public transport,1.0,Alaska
+6,2022-02-15,C5_Close public transport,-1.0,Alaska
+7,2022-02-02,H6_Facial Coverings,1.0,Alaska
+8,2022-02-15,H6_Facial Coverings,-1.0,Alaska
+0,2022-03-16,C2_Workplace closing,-1.0,Alabama
+1,2022-03-16,C3_Cancel public events,-1.0,Alabama
+2,2022-03-16,C4_Restrictions on gatherings,-3.0,Alabama
+3,2022-03-16,C6_Stay at home requirements,-1.0,Alabama
+4,2022-04-18,H6_Facial Coverings,-1.0,Alabama
+0,2022-01-20,C1_School closing,1.0,Arkansas
+1,2022-01-22,C1_School closing,-1.0,Arkansas
+2,2022-04-18,H6_Facial Coverings,-1.0,Arkansas
+0,2022-04-18,H6_Facial Coverings,-1.0,Arizona
+0,2022-01-04,C1_School closing,1.0,California
+1,2022-01-25,C1_School closing,-1.0,California
+2,2022-04-01,C3_Cancel public events,-1.0,California
+3,2022-01-12,C4_Restrictions on gatherings,2.0,California
+4,2022-02-11,C4_Restrictions on gatherings,-3.0,California
+5,2022-03-07,H3_Contact tracing,-1.0,California
+0,2022-02-01,C1_School closing,-1.0,Colorado
+1,2022-02-01,C2_Workplace closing,-1.0,Colorado
+2,2022-02-01,C3_Cancel public events,-1.0,Colorado
+3,2022-02-01,C4_Restrictions on gatherings,-1.0,Colorado
+4,2022-02-01,C5_Close public transport,-1.0,Colorado
+0,2022-01-11,C1_School closing,1.0,Connecticut
+1,2022-01-07,C3_Cancel public events,1.0,Connecticut
+2,2022-01-11,C3_Cancel public events,-1.0,Connecticut
+0,2022-01-01,C1_School closing,-1.0,Washington
+1,2022-01-02,C1_School closing,1.0,Washington
+2,2022-01-01,C2_Workplace closing,-1.0,Washington
+3,2022-01-02,C2_Workplace closing,1.0,Washington
+4,2022-01-01,C3_Cancel public events,-1.0,Washington
+5,2022-01-02,C3_Cancel public events,1.0,Washington
+6,2022-03-02,H6_Facial Coverings,1.0,Washington
+7,2022-03-03,H6_Facial Coverings,-1.0,Washington
+0,2022-03-01,C1_School closing,-1.0,Delaware
+0,2022-01-03,C1_School closing,1.0,Florida
+1,2022-01-18,C1_School closing,-1.0,Florida
+2,2022-02-08,C3_Cancel public events,1.0,Florida
+3,2022-04-05,C3_Cancel public events,-1.0,Florida
+4,2022-04-18,H6_Facial Coverings,-1.0,Florida
+0,2022-01-24,C5_Close public transport,1.0,Georgia
+1,2022-04-27,C5_Close public transport,-1.0,Georgia
+0,2022-01-18,C1_School closing,-1.0,Hawaii
+1,2022-02-01,C1_School closing,1.0,Hawaii
+2,2022-01-18,C2_Workplace closing,-1.0,Hawaii
+3,2022-02-01,C2_Workplace closing,1.0,Hawaii
+4,2022-01-18,C3_Cancel public events,-1.0,Hawaii
+5,2022-02-01,C3_Cancel public events,1.0,Hawaii
+6,2022-02-22,C4_Restrictions on gatherings,-4.0,Hawaii
+7,2022-01-17,H3_Contact tracing,-1.0,Hawaii
+8,2022-04-18,H6_Facial Coverings,-1.0,Hawaii
+0,2022-03-09,C1_School closing,-1.0,Iowa
+1,2022-03-09,H3_Contact tracing,1.0,Iowa
+2,2022-03-15,H3_Contact tracing,-1.0,Iowa
+3,2022-04-18,H6_Facial Coverings,-1.0,Iowa
+0,2022-01-17,C1_School closing,1.0,Idaho
+1,2022-02-08,C1_School closing,-1.0,Idaho
+0,2022-01-21,H3_Contact tracing,-1.0,Indiana
+0,2022-01-11,C1_School closing,-1.0,Kansas
+1,2022-01-11,C2_Workplace closing,-1.0,Kansas
+2,2022-04-19,H6_Facial Coverings,-1.0,Kansas
+0,2022-02-01,C1_School closing,-1.0,Kentucky
+1,2022-02-01,C3_Cancel public events,-1.0,Kentucky
+0,2022-01-25,C1_School closing,2.0,Louisiana
+1,2022-03-21,C2_Workplace closing,-2.0,Louisiana
+2,2022-03-21,C3_Cancel public events,-2.0,Louisiana
+3,2022-03-21,C4_Restrictions on gatherings,-2.0,Louisiana
+4,2022-04-19,H6_Facial Coverings,-1.0,Louisiana
+0,2022-01-26,C1_School closing,1.0,Massachusetts
+1,2022-03-08,C1_School closing,-1.0,Massachusetts
+2,2022-01-15,C2_Workplace closing,2.0,Massachusetts
+3,2022-03-01,C2_Workplace closing,-2.0,Massachusetts
+4,2022-04-12,C5_Close public transport,-1.0,Massachusetts
+5,2022-03-05,H6_Facial Coverings,-1.0,Massachusetts
+0,2022-01-18,C1_School closing,-1.0,Maryland
+1,2022-02-01,C6_Stay at home requirements,1.0,Maryland
+0,2022-02-15,C1_School closing,-1.0,Maine
+1,2022-03-05,H3_Contact tracing,-1.0,Maine
+2,2022-01-25,H6_Facial Coverings,1.0,Maine
+3,2022-02-01,H6_Facial Coverings,-1.0,Maine
+0,2022-04-20,C1_School closing,-2.0,Michigan
+1,2022-04-20,H6_Facial Coverings,-1.0,Michigan
+0,2022-04-18,H6_Facial Coverings,-1.0,Minnesota
+0,2022-04-18,H6_Facial Coverings,-1.0,Missouri
+0,2022-02-06,H3_Contact tracing,1.0,North Carolina
+0,2022-04-19,C1_School closing,-1.0,North Dakota
+1,2022-04-19,C3_Cancel public events,-1.0,North Dakota
+2,2022-04-19,C4_Restrictions on gatherings,-1.0,North Dakota
+3,2022-05-10,H3_Contact tracing,-1.0,North Dakota
+4,2022-04-18,H6_Facial Coverings,-1.0,North Dakota
+5,2022-05-10,H6_Facial Coverings,2.0,North Dakota
+0,2022-01-18,C1_School closing,1.0,Nebraska
+1,2022-02-21,C1_School closing,-2.0,Nebraska
+2,2022-02-21,C5_Close public transport,-1.0,Nebraska
+3,2022-04-05,H3_Contact tracing,-1.0,Nebraska
+0,2022-01-19,C1_School closing,1.0,New Hampshire
+1,2022-02-01,C1_School closing,-1.0,New Hampshire
+2,2022-01-14,C3_Cancel public events,-1.0,New Hampshire
+3,2022-04-18,H6_Facial Coverings,-2.0,New Hampshire
+0,2022-02-15,C1_School closing,-1.0,New Jersey
+1,2022-04-05,C1_School closing,1.0,New Jersey
+2,2022-01-08,C2_Workplace closing,-1.0,New Jersey
+3,2022-01-15,C6_Stay at home requirements,1.0,New Jersey
+4,2022-01-25,C6_Stay at home requirements,-1.0,New Jersey
+5,2022-01-08,H3_Contact tracing,1.0,New Jersey
+6,2022-04-18,H6_Facial Coverings,-2.0,New Jersey
+7,2022-05-03,H6_Facial Coverings,2.0,New Jersey
+0,2022-01-18,C1_School closing,2.0,New Mexico
+1,2022-01-24,C1_School closing,-2.0,New Mexico
+0,2022-04-18,H6_Facial Coverings,-1.0,Nevada
+0,2022-05-03,C3_Cancel public events,-1.0,New York
+1,2022-05-03,C4_Restrictions on gatherings,-1.0,New York
+2,2022-01-14,H3_Contact tracing,-1.0,New York
+3,2022-04-18,H6_Facial Coverings,-2.0,New York
+4,2022-05-03,H6_Facial Coverings,2.0,New York
+0,2022-02-02,C1_School closing,2.0,Ohio
+1,2022-04-11,C1_School closing,-1.0,Ohio
+2,2022-04-11,C5_Close public transport,1.0,Ohio
+3,2022-01-26,H3_Contact tracing,-1.0,Ohio
+4,2022-04-11,H3_Contact tracing,1.0,Ohio
+5,2022-04-18,H6_Facial Coverings,-1.0,Ohio
+0,2022-04-18,H6_Facial Coverings,-1.0,Oklahoma
+0,2022-01-11,C1_School closing,-1.0,Pennsylvania
+1,2022-01-11,C2_Workplace closing,1.0,Pennsylvania
+2,2022-02-02,C2_Workplace closing,-1.0,Pennsylvania
+3,2022-01-11,H6_Facial Coverings,-1.0,Pennsylvania
+4,2022-04-12,H6_Facial Coverings,1.0,Pennsylvania
+5,2022-04-20,H6_Facial Coverings,-3.0,Pennsylvania
+0,2022-01-25,C1_School closing,-1.0,Rhode Island
+1,2022-02-02,C1_School closing,1.0,Rhode Island
+2,2022-01-25,H6_Facial Coverings,1.0,Rhode Island
+3,2022-02-12,H6_Facial Coverings,-1.0,Rhode Island
+0,2022-03-29,C1_School closing,-1.0,South Carolina
+1,2022-04-19,C1_School closing,1.0,South Carolina
+2,2022-04-05,C2_Workplace closing,-1.0,South Carolina
+3,2022-04-19,C2_Workplace closing,1.0,South Carolina
+4,2022-05-10,C4_Restrictions on gatherings,-1.0,South Carolina
+5,2022-05-03,C5_Close public transport,-1.0,South Carolina
+6,2022-01-03,C6_Stay at home requirements,1.0,South Carolina
+7,2022-05-03,C6_Stay at home requirements,-1.0,South Carolina
+8,2022-01-18,C7_Restrictions on internal movement,1.0,South Carolina
+9,2022-05-03,C7_Restrictions on internal movement,-1.0,South Carolina
+10,2022-01-18,H6_Facial Coverings,1.0,South Carolina
+11,2022-02-08,H6_Facial Coverings,-1.0,South Carolina
+12,2022-04-18,H6_Facial Coverings,-2.0,South Carolina
+0,2022-01-24,H6_Facial Coverings,1.0,South Dakota
+0,2022-04-18,H6_Facial Coverings,-1.0,Tennessee
+0,2022-04-18,H6_Facial Coverings,-1.0,Texas
+0,2022-03-28,C1_School closing,1.0,Utah
+1,2022-03-28,C2_Workplace closing,-1.0,Utah
+2,2022-04-18,H6_Facial Coverings,-1.0,Utah
+0,2022-01-10,C1_School closing,1.0,Virginia
+1,2022-02-22,C1_School closing,-2.0,Virginia
+2,2022-03-09,C1_School closing,2.0,Virginia
+3,2022-03-21,C1_School closing,-1.0,Virginia
+0,2022-01-26,C1_School closing,1.0,Vermont
+1,2022-02-01,C1_School closing,-1.0,Vermont
+2,2022-01-26,H3_Contact tracing,-1.0,Vermont
+3,2022-04-18,H6_Facial Coverings,-1.0,Vermont
+0,2022-02-22,C1_School closing,-1.0,Wisconsin
+1,2022-02-08,C2_Workplace closing,1.0,Wisconsin
+2,2022-02-22,C2_Workplace closing,-1.0,Wisconsin
+3,2022-02-08,C5_Close public transport,1.0,Wisconsin
+4,2022-02-22,C5_Close public transport,-1.0,Wisconsin
+5,2022-04-19,H6_Facial Coverings,-2.0,Wisconsin
+0,2022-02-01,C1_School closing,1.0,West Virginia
+1,2022-02-15,C1_School closing,-1.0,West Virginia
+0,2022-04-18,H6_Facial Coverings,-1.0,Wyoming
