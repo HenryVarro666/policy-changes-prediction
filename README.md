@@ -12,7 +12,8 @@ Data Source:
 
 [OxCGRT/covid-policy-tracker](https://github.com/OxCGRT/covid-policy-tracker)
 
-
+> Beginning on October 20, 2022, the CDC retrieves aggregate case and death data from jurisdictional and state partners on a weekly basis rather than daily. This dataset contains archived aggregate daily counts of COVID-19 cases and death by state. Although these data will continue to be publicly available, as of 10/20/2022, this dataset will no longer be updated.
+> A new dataset which aggregates weekly COVID-19 cases and deaths by State can be found at: Weekly United States COVID-19 Cases and Deaths by State | Data | Centers for Disease Control and Prevention (cdc.gov). This new dataset is compiled using different methodology; please see the corresponding description on the new dataset for additional details.
 
 ## Two policy
 ![State and National](https://raw.githubusercontent.com/HenryVarro666/images/master/images/20220519000951.png)
