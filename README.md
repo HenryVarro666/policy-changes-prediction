@@ -12,6 +12,20 @@
 
 </div>
 
+<!-- problem-framing:start -->
+
+## Problem and evidence
+
+> **Do case-history features improve prediction of a future recorded policy change beyond a persistence baseline when every feature is restricted to information available at the prediction date?**
+
+**Why it matters:** Visually aligned time series do not establish forecasting ability. A reproducible retrospective test would clarify whether the data contain useful advance information.
+
+**Central tension:** Smoothing reduces reporting noise, but can leak future observations or blur the timing of a rare policy change. Correlation also does not identify why a government changed policy.
+
+[Full problem and verification plan](PROBLEM.md)
+
+<!-- problem-framing:end -->
+
 ## Highlights
 
 - **Sources:** [OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) national policy levels and CDC daily case counts by state, joined by date.
