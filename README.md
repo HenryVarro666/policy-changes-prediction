@@ -6,6 +6,22 @@ Predict National Policy Changes based on Case Data
 
 <!--more-->
 
+
+
+<!-- problem-framing:start -->
+
+## Problem and evidence
+
+> **Do case-history features improve prediction of a future recorded policy change beyond a persistence baseline when every feature is restricted to information available at the prediction date?**
+
+**Why it matters:** Visually aligned time series do not establish forecasting ability. A reproducible retrospective test would clarify whether the data contain useful advance information.
+
+**Central tension:** Smoothing reduces reporting noise, but can leak future observations or blur the timing of a rare policy change. Correlation also does not identify why a government changed policy.
+
+[Full problem and verification plan](PROBLEM.md) · [Reusable framing prompt](PROBLEM_PROMPT.md)
+
+<!-- problem-framing:end -->
+
 ## Policy Data
 
 Data Source:
