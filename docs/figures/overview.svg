@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc"><title id="title">POLICY CHANGES PREDICTION</title><desc id="desc">Do policies follow the cases? National COVID-19 policy changes, lined up with daily case counts.</desc><defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#F7F9FC"/><stop offset="1" stop-color="#EFF3F7"/></linearGradient></defs><rect width="1600" height="960" fill="url(#paper)"/><g font-family="Inter, 'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="1600" height="9" rx="0" fill="#56688A" stroke="none"/>
+<text x="64" y="66" font-size="20" fill="#172837" font-weight="700" letter-spacing="2" data-maxx="900">POLICY CHANGES PREDICTION</text>
+<text x="1536" y="66" font-size="16" fill="#56688A" font-weight="600" letter-spacing="1" text-anchor="end">COURSE PROJECT / DATA 605</text>
+<text x="60" y="167" font-size="72" fill="#142638" font-weight="500" data-maxx="1540">Do policies follow the cases?</text>
+<text x="64" y="221" font-size="27" fill="#344C5F" font-weight="400" data-maxx="1536">National COVID-19 policy changes, lined up with daily case counts.</text>
+<text x="64" y="262" font-size="20" fill="#697988" font-weight="400" data-maxx="1536">The OxCGRT policy tracker and CDC case data, joined by date.</text>
+<rect x="64" y="323" width="344" height="272" rx="20" fill="#FFFFFF" stroke="#DCE4EB"/>
+<rect x="88" y="349" width="44" height="5" rx="2" fill="#56688A" stroke="none"/>
+<text x="88" y="393" font-size="17" fill="#56688A" font-weight="700" letter-spacing="1.4" data-maxx="394">01 / COLLECT</text>
+<text x="88" y="441" font-size="28" fill="#172C3C" font-weight="600" data-maxx="394">Two sources</text>
+<text x="88" y="485" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="394">OxCGRT policy levels</text>
+<text x="88" y="517" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="394">CDC cases by state</text>
+<text x="88" y="549" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="394">About 500 MB in total</text>
+<path d="M416 458h16m-6-6 6 6-6 6" fill="none" stroke="#56688A" stroke-width="2"/>
+<rect x="440" y="323" width="344" height="272" rx="20" fill="#FFFFFF" stroke="#DCE4EB"/>
+<rect x="464" y="349" width="44" height="5" rx="2" fill="#56688A" stroke="none"/>
+<text x="464" y="393" font-size="17" fill="#56688A" font-weight="700" letter-spacing="1.4" data-maxx="770">02 / DETECT</text>
+<text x="464" y="441" font-size="28" fill="#172C3C" font-weight="600" data-maxx="770">Level changes</text>
+<text x="464" y="485" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="770">Day-over-day difference</text>
+<text x="464" y="517" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="770">Non-zero means a change</text>
+<text x="464" y="549" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="770">Per policy indicator</text>
+<path d="M792 458h16m-6-6 6 6-6 6" fill="none" stroke="#56688A" stroke-width="2"/>
+<rect x="816" y="323" width="344" height="272" rx="20" fill="#FFFFFF" stroke="#DCE4EB"/>
+<rect x="840" y="349" width="44" height="5" rx="2" fill="#56688A" stroke="none"/>
+<text x="840" y="393" font-size="17" fill="#56688A" font-weight="700" letter-spacing="1.4" data-maxx="1146">03 / SMOOTH</text>
+<text x="840" y="441" font-size="28" fill="#172C3C" font-weight="600" data-maxx="1146">Case trend</text>
+<text x="840" y="485" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="1146">Weekend dips smoothed</text>
+<text x="840" y="517" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="1146">20-day moving average</text>
+<text x="840" y="549" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="1146">National new cases</text>
+<path d="M1168 458h16m-6-6 6 6-6 6" fill="none" stroke="#56688A" stroke-width="2"/>
+<rect x="1192" y="323" width="344" height="272" rx="20" fill="#FFFFFF" stroke="#DCE4EB"/>
+<rect x="1216" y="349" width="44" height="5" rx="2" fill="#56688A" stroke="none"/>
+<text x="1216" y="393" font-size="17" fill="#56688A" font-weight="700" letter-spacing="1.4" data-maxx="1522">04 / FUSE</text>
+<text x="1216" y="441" font-size="28" fill="#172C3C" font-weight="600" data-maxx="1522">One timeline</text>
+<text x="1216" y="485" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="1522">Changes on the case curve</text>
+<text x="1216" y="517" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="1522">Omicron wave marked</text>
+<text x="1216" y="549" font-size="18" fill="#5C6D7B" font-weight="400" data-maxx="1522">Lag read off the plot</text>
+<rect x="64" y="635" width="470" height="211" rx="18" fill="#E3E8F1" stroke="none"/>
+<text x="88" y="675" font-size="15" fill="#56688A" font-weight="700" letter-spacing="1.2" data-maxx="516">FINDING</text>
+<text x="88" y="722" font-size="24" fill="#193346" font-weight="600" data-maxx="516">About a month to respond</text>
+<text x="88" y="765" font-size="18" fill="#536777" font-weight="400" data-maxx="516">Policy changes trailed case waves</text>
+<text x="88" y="795" font-size="18" fill="#536777" font-weight="400" data-maxx="516">by roughly one month.</text>
+<rect x="565" y="635" width="470" height="211" rx="18" fill="#E8EDF3" stroke="none"/>
+<text x="589" y="675" font-size="15" fill="#56688A" font-weight="700" letter-spacing="1.2" data-maxx="1017">LATEST PEAK</text>
+<text x="589" y="722" font-size="24" fill="#193346" font-weight="600" data-maxx="1017">Driven by Omicron</text>
+<text x="589" y="765" font-size="18" fill="#536777" font-weight="400" data-maxx="1017">The last wave followed Omicron&#x27;s</text>
+<text x="589" y="795" font-size="18" fill="#536777" font-weight="400" data-maxx="1017">US arrival in late 2021.</text>
+<rect x="1066" y="635" width="470" height="211" rx="18" fill="#E8EDF3" stroke="none"/>
+<text x="1090" y="675" font-size="15" fill="#56688A" font-weight="700" letter-spacing="1.2" data-maxx="1518">SCHOOLS</text>
+<text x="1090" y="722" font-size="24" fill="#193346" font-weight="600" data-maxx="1518">No school-closing changes</text>
+<text x="1090" y="765" font-size="18" fill="#536777" font-weight="400" data-maxx="1518">The school-closing level stayed</text>
+<text x="1090" y="795" font-size="18" fill="#536777" font-weight="400" data-maxx="1518">flat through 2022.</text>
+<path d="M64 888h1472" stroke="#CED9E3"/>
+<text x="64" y="923" font-size="17" fill="#647788" font-weight="400" data-maxx="1536">JUPYTER  /  pandas · matplotlib. Slides and the report are in this repository.</text>
+</g></svg>
