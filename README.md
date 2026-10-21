@@ -1,4 +1,16 @@
-# Policy-Changes-Prediction
+# Policy Changes Prediction
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/overview-dark.svg">
+    <img src="docs/overview-light.svg" alt="Overview: national policy strictness level plotted against daily COVID-19 cases; policy changes trail case waves" width="560">
+  </picture>
+</p>
+
+DATA605 (big data systems) project. Finds the days a national COVID-19 policy level changes in the
+[OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) tracker, lines them up with CDC daily case
+counts (20-day moving average) and reads off how policy responds to case waves. In the US data,
+policy changes trailed case waves by about a month.
 
 DATA605 big data system project
 
@@ -162,4 +174,3 @@ Though it was reported that "Java heap space", it runs fast and is almost real-t
 ### Veracity
 Those two sources are reliable.
 (CDC and [OxCGRT](https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker))
-
