@@ -1,0 +1,5 @@
+# OS, editor and Python caches
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

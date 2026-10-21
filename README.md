@@ -1,16 +1,39 @@
+<div align="center">
+
 # Policy Changes Prediction
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/overview-dark.svg">
-    <img src="docs/overview-light.svg" alt="Overview: national policy strictness level plotted against daily COVID-19 cases; policy changes trail case waves" width="560">
-  </picture>
-</p>
+**When do national COVID-19 policies change? Policy levels lined up with daily case counts.**
 
-DATA605 (big data systems) project. Finds the days a national COVID-19 policy level changes in the
-[OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) tracker, lines them up with CDC daily case
-counts (20-day moving average) and reads off how policy responds to case waves. In the US data,
-policy changes trailed case waves by about a month.
+![Jupyter](https://img.shields.io/badge/Jupyter-pandas-F37626?logo=jupyter&logoColor=white)
+![data](https://img.shields.io/badge/data-OxCGRT%20·%20CDC-6E7781)
+[![homepage](https://img.shields.io/badge/homepage-ccao2679.com-555555)](https://www.ccao2679.com/coursework/#policy-changes-prediction)
+
+<img src="docs/figures/overview.png" alt="Overview poster: collect OxCGRT and CDC data, detect policy level changes, smooth cases, fuse into one timeline" width="100%">
+
+</div>
+
+## Highlights
+
+- **Sources:** [OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) national policy levels and CDC daily case counts by state, joined by date.
+- **Method:** a policy change is any day-over-day difference in a policy indicator's level; cases are smoothed with a 20-day moving average and plotted on the same timeline.
+- **Findings:** policy changes trailed case waves by about a month; the latest peak followed Omicron's arrival in the US; the school-closing level did not change in 2022.
+
+## Quick start
+
+Open `final/Final(pandas).ipynb` in Jupyter; the policy classifiers for each year are in `tool/`.
+
+## Repository layout
+
+| Path | Purpose |
+|---|---|
+| `final/` | Final analysis notebooks and per-country policy CSVs (2020–2022) |
+| `tool/` | Policy classifiers and exploration notebooks |
+| `data/` | Raw and cleaned policy and case data |
+| `outputs/` | Detected national and state policy changes for 2022 |
+| `docs/` | Report, slides and poster |
+
+<details>
+<summary>Original write-up</summary>
 
 DATA605 big data system project
 
@@ -174,3 +197,5 @@ Though it was reported that "Java heap space", it runs fast and is almost real-t
 ### Veracity
 Those two sources are reliable.
 (CDC and [OxCGRT](https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker))
+
+</details>
