@@ -6,7 +6,7 @@
 
 ![Jupyter](https://img.shields.io/badge/Jupyter-pandas-F37626?logo=jupyter&logoColor=white)
 ![data](https://img.shields.io/badge/data-OxCGRT%20·%20CDC-6E7781)
-[![homepage](https://img.shields.io/badge/homepage-ccao2679.com-555555)](https://www.ccao2679.com/coursework/#policy-changes-prediction)
+[![homepage](https://img.shields.io/badge/homepage-ccao2679.com-555555)](https://www.ccao2679.com/projects/#policy-changes-prediction)
 
 <img src="docs/figures/overview.png" alt="Overview poster: collect OxCGRT and CDC data, detect policy level changes, smooth cases, fuse into one timeline" width="100%">
 
