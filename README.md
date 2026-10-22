@@ -2,6 +2,8 @@
 
 # Policy Changes Prediction
 
+**English** · [简体中文](README.zh-CN.md)
+
 **When do national COVID-19 policies change? Policy levels lined up with daily case counts.**
 
 ![Jupyter](https://img.shields.io/badge/Jupyter-pandas-F37626?logo=jupyter&logoColor=white)
@@ -22,7 +24,7 @@
 
 **Central tension:** Smoothing reduces reporting noise, but can leak future observations or blur the timing of a rare policy change. Correlation also does not identify why a government changed policy.
 
-[Full problem and verification plan](PROBLEM.md)
+[Full problem and verification plan](PROBLEM.md) · [中文](PROBLEM.zh.md)
 
 <!-- problem-framing:end -->
 
@@ -31,6 +33,36 @@
 - **Sources:** [OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) national policy levels and CDC daily case counts by state, joined by date.
 - **Method:** a policy change is any day-over-day difference in a policy indicator's level; cases are smoothed with a 20-day moving average and plotted on the same timeline.
 - **Findings:** policy changes trailed case waves by about a month; the latest peak followed Omicron's arrival in the US; the school-closing level did not change in 2022.
+
+## Architecture
+
+```mermaid
+flowchart TD
+    OX["data/data_policy_*.csv<br/>OxCGRT 2020-2022"]
+    CDC["data/db.csv<br/>CDC cases by state"]
+    subgraph tool["tool/"]
+        CLS["2020-2022 policy classifier<br/>split by country"]
+        EXP["policy-exploration-create<br/>US change detection"]
+    end
+    OX --> CLS
+    OX --> EXP
+    CLS --> CTRY["data/YEAR_policy/<br/>CHN, ITA, UK, USA"]
+    EXP --> OUT["outputs/<br/>2022 change CSVs"]
+    subgraph fin["final/Final(pandas).ipynb"]
+        NAT["USA NAT_TOTAL<br/>8 policy indicators"]
+        DIFF["day-over-day diff<br/>change dates, sizes"]
+        SUM["sum states by date<br/>20-day moving average"]
+        FUS["fusion<br/>change x case average"]
+    end
+    CTRY -->|"USA files"| NAT
+    NAT --> DIFF
+    DIFF --> FUS
+    CDC --> SUM
+    SUM --> FUS
+    FUS --> PLOT["one timeline plot<br/>policies and cases"]
+```
+
+Arrows follow the data. The `tool/` notebooks split the OxCGRT files by country and list US policy changes for 2022; `Final(pandas).ipynb` marks each national change as a spike whose height is the change times the 20-day case average, so policy changes and case waves share one timeline.
 
 ## Quick start
 

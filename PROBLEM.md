@@ -11,3 +11,5 @@
 **Decisive verification:** Define a forecast horizon and change label before evaluation. Use rolling-origin splits, trailing-only features and publication availability dates where recorded. Compare persistence and a simple historical-rate baseline with a small predictive model under a fixed feature budget. Report rare-event precision/recall, calibration and variation across periods. If gains vanish under date-correct features or cannot be separated from reporting artifacts, retain the project as exploratory visualization.
 
 This proposes a historical forecasting study; it adds no public-health advice or new result.
+
+中文版：[PROBLEM.zh.md](PROBLEM.zh.md)
