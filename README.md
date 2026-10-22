@@ -30,9 +30,10 @@
 
 ## Highlights
 
-- **Sources:** [OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) national policy levels and CDC daily case counts by state, joined by date.
+- **Sources:** [OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) national policy levels and CDC daily case counts by state, summed to national totals and joined by date.
 - **Method:** a policy change is any day-over-day difference in a policy indicator's level; cases are smoothed with a 20-day moving average and plotted on the same timeline.
-- **Findings:** policy changes trailed case waves by about a month; the latest peak followed Omicron's arrival in the US; the school-closing level did not change in 2022.
+- **Observations:** read from the combined plot, policy changes trailed case waves by about a month and the latest peak followed Omicron's arrival in the US; the code computes no lag. The notebook confirms that the school-closing level did not change in 2022.
+- **Prediction:** no predictive model is trained. `tool/policy_wise_exploration.ipynb` sketches tree regressors, but its input path (`../outputs/ .csv`) points to a file that is not in the repository.
 
 ## Architecture
 
@@ -66,14 +67,14 @@ Arrows follow the data. The `tool/` notebooks split the OxCGRT files by country 
 
 ## Quick start
 
-Open `final/Final(pandas).ipynb` in Jupyter; the policy classifiers for each year are in `tool/`.
+Open `final/Final(pandas).ipynb` in Jupyter. The `tool/<year> policy classifier.ipynb` notebooks filter each year's OxCGRT file by country (China, Italy, UK, USA); they do not train a classifier.
 
 ## Repository layout
 
 | Path | Purpose |
 |---|---|
 | `final/` | Final analysis notebooks and per-country policy CSVs (2020–2022) |
-| `tool/` | Policy classifiers and exploration notebooks |
+| `tool/` | Per-year country filters (`<year> policy classifier.ipynb`), US change detection and an unfinished modelling notebook |
 | `data/` | Raw and cleaned policy and case data |
 | `outputs/` | Detected national and state policy changes for 2022 |
 | `docs/` | Report, slides and poster |

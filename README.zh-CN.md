@@ -30,9 +30,10 @@
 
 ## 亮点
 
-- **数据来源：** [OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) 的国家政策等级，以及 CDC 按州统计的每日病例数，按日期拼接。
+- **数据来源：** [OxCGRT](https://github.com/OxCGRT/covid-policy-tracker) 的国家政策等级，以及 CDC 按州统计的每日病例数（汇总为全国总数），按日期拼接。
 - **方法：** 政策指标的等级只要与前一天不同，就记为一次政策变化；病例数用 20 天移动平均平滑后，与政策画在同一条时间轴上。
-- **发现：** 政策变化比病例高峰滞后约一个月；最近一次高峰出现在 Omicron 传入美国之后；2022 年学校关闭（school closing）等级没有变化。
+- **观察：** 从合并后的图上看，政策变化比病例高峰滞后约一个月，最近一次高峰出现在 Omicron 传入美国之后；代码并未计算滞后。notebook 确认 2022 年学校关闭（school closing）等级没有变化。
+- **预测：** 目前没有训练任何预测模型。`tool/policy_wise_exploration.ipynb` 搭了树回归模型的框架，但其输入路径（`../outputs/ .csv`）指向一个仓库中不存在的文件。
 
 ## 架构
 
@@ -66,14 +67,14 @@ flowchart TD
 
 ## 快速开始
 
-在 Jupyter 中打开 `final/Final(pandas).ipynb`；各年份的政策分类器（policy classifier）位于 `tool/`。
+在 Jupyter 中打开 `final/Final(pandas).ipynb`。`tool/<year> policy classifier.ipynb` 这几个 notebook 按国家（中国、意大利、英国、美国）筛选每年的 OxCGRT 文件，并不训练分类器。
 
 ## 目录结构
 
 | 路径 | 用途 |
 |---|---|
 | `final/` | 最终分析 notebook 与各国政策 CSV（2020–2022） |
-| `tool/` | 政策分类器与探索性 notebook |
+| `tool/` | 各年份按国家筛选的 notebook（`<year> policy classifier.ipynb`）、美国政策变化检测，以及一个未完成的建模 notebook |
 | `data/` | 原始及清洗后的政策数据和病例数据 |
 | `outputs/` | 检测出的 2022 年国家级与州级政策变化 |
 | `docs/` | 报告、幻灯片和海报 |
